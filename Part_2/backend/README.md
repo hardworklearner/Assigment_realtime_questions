@@ -1,7 +1,5 @@
 # Creating a README file for the backend in text format.
 
-readme_content = """
-
 # Quiz Platform Backend
 
 This is the backend implementation for the Quiz Platform. It provides a REST API for user authentication, quiz management, real-time leaderboard updates, and answer submissions. The backend is implemented using **Node.js**, **Express.js**, **PostgreSQL**, and **Sequelize ORM**.
@@ -155,12 +153,6 @@ This project is licensed under the MIT License.
 For any queries, please contact [hardworkenglishlearner@gmail.com].
 
 ````json
-
----
-
-### **API Document for Postman**
-
-Save the following as `quiz_platform_postman_collection.json`:
 
 ```json
 {

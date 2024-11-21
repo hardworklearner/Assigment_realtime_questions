@@ -153,8 +153,6 @@ This project is licensed under the MIT License.
 For any queries, please contact [hardworkenglishlearner@gmail.com].
 
 ````json
-
-```json
 {
   "info": {
     "name": "Quiz Platform API",

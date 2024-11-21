@@ -1,0 +1,53 @@
+html {
+  background-color: #fff;
+}
+
+.home-page {
+  text-align: center;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.leaderboard,
+.quiz-menu {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.leaderboard h2,
+.quiz-menu h2 {
+  margin-bottom: 10px;
+}
+
+button {
+  margin: 5px 10px 5px 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.login-container,
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.login-container input,
+.signup-container input {
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}

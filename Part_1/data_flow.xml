@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1">
+    <mxGraphModel dx="1428" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" value="Real-Time Vocabulary Quiz" style="group" vertex="1" connectable="0">
+          <mxGeometry x="0" y="0" width="1" height="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="1" value="Start Quiz" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="0" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="2" value="User Joins Quiz" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="0.2" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="3" value="Validate Quiz ID" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="0.4" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="4" value="Send Quiz Questions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="0.6" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="5" value="User Submits Answer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="0.8" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="6" value="Process Answer & Update Score" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="1" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="7" value="Update Score in Database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="1.2" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="8" value="Push Updated Score to Leaderboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="1.4" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="9" value="Update Real-Time Leaderboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="1.6" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="10" value="Push Leaderboard Updates to Clients" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="1.8" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="11" value="End of Data Flow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000" vertex="1" parent="0">
+          <mxGeometry x="0.5" y="2" width="120" height="60" as="geometry" relative="1"/>
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="1" target="2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="4" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="5" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="6" target="7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="7" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="8" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="9" target="10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonal=1;jettySize=auto;html=1;" edge="1" parent="0" source="10" target="11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

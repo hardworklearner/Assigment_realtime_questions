@@ -57,8 +57,6 @@ This is the frontend of the Quiz Platform, a web application for hosting and par
    git clone https://github.com/your-repository/frontend.git
    cd frontend
    ```
-
-````
 2. Install dependencies
 ```bash
 npm install

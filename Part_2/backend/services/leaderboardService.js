@@ -26,6 +26,7 @@ class LeaderboardService {
       order: [
         [Score.sequelize.fn("SUM", Score.sequelize.col("score")), "DESC"],
       ], // Use SUM in order clause
+      limit: 100,
     });
 
     // Format leaderboard data

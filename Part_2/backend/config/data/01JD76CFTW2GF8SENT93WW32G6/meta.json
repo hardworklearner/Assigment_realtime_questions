@@ -1,0 +1,17 @@
+{
+	"ulid": "01JD76CFTW2GF8SENT93WW32G6",
+	"minTime": 1732176299216,
+	"maxTime": 1732183200000,
+	"stats": {
+		"numSamples": 2110,
+		"numSeries": 5,
+		"numChunks": 16
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01JD76CFTW2GF8SENT93WW32G6"
+		]
+	},
+	"version": 1
+}

@@ -74,14 +74,15 @@ app.get("/api/health", async (req, res) => {
 const io = setupWebSocket(server);
 app.set("io", io); // Attach the WebSocket instance to the app for shared use
 
-// Sync database schema and start the server
-sequelize.sync({ alter: true }).then(() => {
-  console.log("Database synchronized");
-  server.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+if (process.env.NODE_ENV !== "test") {
+  // Sync database schema and start the server
+  sequelize.sync({ alter: true }).then(() => {
+    console.log("Database synchronized");
+    server.listen(PORT, () => {
+      console.log(`Server is running on http://localhost:${PORT}`);
+    });
   });
-});
-
+}
 // Utility to print all available routes
 function printRoutes(path, layer) {
   if (layer.route) {
